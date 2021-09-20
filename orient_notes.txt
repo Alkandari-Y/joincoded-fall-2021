@@ -1,0 +1,16 @@
+Orientation:
+    ""Philosophy = The Productive stuggle;
+    + taking people of their comfort zone
+
+    Criteria for progressing into phase 2:
+        effort
+        commitment
+    
+    static websites
+    basics of coidng
+    
+    dynamic websites
+    backend development
+    mobile applications
+    capstone project""
+

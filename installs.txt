@@ -1,0 +1,5 @@
+Installed:
+Nodejs
+Yarn
+Git
+Home-brew on Mac

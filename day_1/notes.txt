@@ -1,0 +1,58 @@
+Day 1: {
+    Outline: [Terminal, Github, Google Chrome Developer Tools, VSC, JS, HTML, CSS],
+
+    Terminal: 
+        CLI: ""command line interface vs GUI - graphical user interface:
+            breif discussion between the GUI an CLI
+            CLI saves time in development (no need to create a gui for development), connects to remote servers to interact with its systems
+            course focus on terminal and gitbash
+            cli cheatsheet for cli= https://github.com/0nn0/terminal-mac-cheatsheet#english-version
+
+            checkout iter and zish for mac
+
+            tryout youtube-dl [link]""
+
+    
+        Commands reviewed:
+            ""mkdir [foldername]
+            ls
+            pwd
+            cd ..
+            touch [filename]""
+
+        Task:
+            ""link = https://warehouse.joincoded.com/assignments/1-command-line
+            In this task, you will be creating the directory that you'll be using to save your work throughout this Bootcamp. Just follow the below steps to guide you:
+
+            Open the terminal (on Windows you should use GitBash)
+            Go into your home directory by running the command cd.
+            Create a new directory called Development using mkdir.
+            Use ls to make sure that the Development directory was created.
+            Go into the Development directory using cd.
+            Use pwd to make sure you're in the right directory.""
+
+    Git:
+        discussion: ""version control system
+        share code with colleagues efficiently
+        see changes made to the project
+
+        check out SourceTree for mac""
+
+        setup: "
+        create ssh key-pair
+        copy the public key and register key in git settings as a valid pub key
+        link for details = https://warehouse.joincoded.com/workshops/2-git-basics/basic-commands-1/ssh-keygen
+        "
+
+        commands: ""
+        git clone [address]
+        git init
+        git add [filename, folder, * or . as a followup command]
+        git commit -m ""
+        git push
+        ""
+
+        
+        
+
+}
