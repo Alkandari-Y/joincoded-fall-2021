@@ -1,0 +1,21 @@
+An Alternative calculator script by instructor Aziz:
+const prompt = require("prompt-sync")(); // Please don't touch me :)
+
+const operations = {
+  "+": (a,b) => a+b,
+  "-": (a,b) => a-b,
+  "*": (a,b) => a*b,
+  "/": (a,b) => a/b;
+}
+
+const numberOne = +prompt("First number: ");
+const numberTwo = +prompt("Second number: ");
+const operation = promtp("Operation (+-*/)");
+
+if(isNaN(numberOne) || isNaN(numberTwo)) console.error("Invalid input!");
+else {
+  if(operations[operation]) console.log(`${numberOne} ${operation} ${numberTwo} = ${operations[operation](numberOne, numberTwo)}`);
+  else console.error("Invalid operation!")
+}
+
+
