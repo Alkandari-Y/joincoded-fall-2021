@@ -19,3 +19,5 @@ else {
 }
 
 
+reviewed functions and if statements
+link to task on functions = https://github.com/Alkandari-Y/JSFoundations-Functions

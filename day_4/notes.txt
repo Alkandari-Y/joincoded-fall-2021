@@ -1,0 +1,66 @@
+task 1  link = https://github.com/Alkandari-Y/JSFoundations-Functions
+
+final task solution in link 1 was probolomatic with the exmaple in script.js, suggested solution for last task:
+
+function youGottaCalmDown(shout){
+    const sliceIndex = shout.indexOf("!!");
+    if (sliceIndex < 0){
+        return shout;
+    } else {
+        return shout.slice(0, sliceIndex + 1)
+    }
+}
+
+reviewed arrow functions
+
+const name = () => {
+    return 
+}
+
+const name = () => execute line immediatley
+
+reviewed for array.forEach(element)
+eg.
+
+const printArray = array => {
+    array.forEach(element => {
+        console.log(`#S{element});
+    })
+}
+
+printArray([5, 4, 3, 8, 19, 21, 8, -4])
+
+const filterAboveN = (array, n) => {
+    const filteredArray = array.filter((element) => {
+        //return true
+        if(element <=n){
+            return true;
+        } else {
+            return false
+        }
+    });
+    return filteredArray;
+}
+const array = [5, 4, 3, 8, 19, 21, 8, -4]
+
+or this way can be done
+
+const filterAboveN = (array, n) => (filteredArray = filteredArray = array.filter((element) => element <= n));
+
+
+
+
+
+.map
+const curveUp = {array, n} => {
+    return array.map((element)=> {
+        return element + 4
+    })
+};
+
+
+map > filter > reduce
+check out reduce and map array
+check this link out = https://www.freecodecamp.org/news/javascript-map-reduce-and-filter-explained-with-examples/
+
+task link = https://github.com/Alkandari-Y/JSFoundations-Arrows-Iterators

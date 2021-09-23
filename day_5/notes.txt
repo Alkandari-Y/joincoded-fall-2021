@@ -1,0 +1,8 @@
+Check out JavaScript Anywhere = https://apps.apple.com/us/app/javascript-anywhere-jsanywhere/id363452277
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+tip: if you write ```js then discord will add color highlighting to your code
+
+
+
+
