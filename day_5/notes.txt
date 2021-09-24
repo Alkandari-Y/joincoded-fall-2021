@@ -3,6 +3,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spre
 
 tip: if you write ```js then discord will add color highlighting to your code
 
-
+objects (dictionaries in python terms):
 
 
