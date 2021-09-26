@@ -6,3 +6,49 @@ tip: if you write ```js then discord will add color highlighting to your code
 objects (dictionaries in python terms):
 
 
+useful methods to remember:
+
+.forEach() 
+Loop over an Array and is used to execute the same code on every element in an array but does not change the array and returns undefined.
+
+.map() 
+executes the same code on every element in an array and returns a new array with the updated elements.
+
+.filter() 
+checks every element in an array to see if it meets certain criteria and returns a new array with the elements that return truthy for the criteria.
+
+.findIndex() 
+Find the index of an item in the Array returns the index of the first element of an array which satisfies a condition in the callback function. It returns -1 if none of the elements in the array satisfies the condition.
+
+.reduce() 
+iterates through an array and takes the values of the elements and returns a single value.
+
+.some()
+method tests whether at least one element in the array passes the test implemented by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise it returns false. It doesn't modify the array.
+
+.indexOf()
+Find the index of an item in the Array
+
+.every()
+method returns true if all elements in an array pass a test
+
+.pop()
+Remove an item from the end of an Array
+
+.push()
+Add an item to the end of an Array
+
+.shift()
+Remove an item from the beginning of an Array
+
+.unshift()
+Add an item to the beginning of an Array
+
+.splice()
+Remove an item by index position
+
+.slice()
+Copy an Array
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods
