@@ -1,0 +1,56 @@
+slide notes
+
+Pair programming:
+
+"A technique in which two programmers work on one workstation. One writes the code while the other monitors the process."
+
+We will be doing this be introduced gradually thorughout the bootcamp
+
+"
+objectives:
+boost quality
+boosting understanding of the project
+boost understanding of teammemebrs
+
+Not objectives:
+Teaching + Mentorship (could work in work enviroment to bring me up to speed with the team)
+"
+
+
+pilot:
+controls the keyboard and writes the code
+actively focus only on achieving the goal
+
+discusses what they are doing
+
+keeps a running commentary on what they are doing
+
+trusts their navigator to keep them on track
+
+navigator:
+observes
+
+reviews the code as its written
+
+actively focused on possible bugs, larger issues, possible siplifications and improvements
+
+discusses what the pilot should try next
+
+makes sure there is a running commentary
+
+trusts that their pilot knows what they're doing but also keeps them focused
+
+
+workflow:
+define your major objective
+agree on one tiny goal at a time
+assign your roles
+start, talk sync
+celebrate
+switch roles
+
+
+Github:
+settings > manage access > invite a collaborator
+
+task link = https://github.com/JoinCODED/TASK-calculator-js
