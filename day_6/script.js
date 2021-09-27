@@ -4,30 +4,37 @@ let numberOne = [];
 let numberTwo = [];
 let history = [];
 
-const numberCheck = (num) => {
-  if (numberOne.length === 0 || numberTwo.length === 0){
-    if (numberOne !== '-' || numberOne[0] !== '+'){
-      numberOne.push(num)
-      
-      printOnConsole()
-    } else {
-      numberOne = numberOne.push(num)
+const inputCheck = (input) => {
+  if (isNaN(input) === false){
+    if (numberOne.length === 0 && operationIndex === null){
+    numberOne.push(input)
+    printOnConsole(numberOne)
+    } else if (numberOne.length > 0 && operationIndex === null){
+    numberOne.push(input)
+    printOnConsole(joinArray(numberOne))
+    } else if (operationIndex >= 0 && numberTwo.length === 0){
+      numberTwo.push(input)
+    printOnConsole(numberTwo)
+    } else if (operationIndex >= 0 && numberTwo.length > 0 ){
+      numberTwo.push(input)
+      printOnConsole(joinArray(numberTwo))
     }
-    let num1 = numberOne.join('')
-    printOnConsole(num1)
+  } else if (operations.includes(input) && operationIndex === null && numberTwo.length === 0){
+    operationIndex = operations.indexOf(input)
+  } else if(input === '='){
+    calculateTotal(joinArray(numberOne), joinArray(numberTwo), operationIndex)
   }
-  return numberOne
 }
 
-const operatorCheck = (text) => {
-
+const joinArray = (numberArray) => {
+  let num = numberArray.join('')
+  return num
 }
 
 const resetCalculator = () =>{
-  // calculate = [];
   operationIndex = null;
-  numberOne = null;
-  numberTwo = null;
+  numberOne = [];
+  numberTwo = [];
   printOnConsole(0)
 }
 
@@ -45,15 +52,15 @@ const calculateTotal = (num1, num2, index) => {
   updateHistory(history)
   printOnConsole(calculations[operation](parseInt(num1), parseInt(num2)).toFixed(2))
   operationIndex = null;
-  numberOne = null;
-  numberTwo = null;
+  numberOne = [];
+  numberTwo = [];
 }
 
-const buttonClick = (text) => {
-  if(isNaN(text) === false){
-    numberCheck(text)
+const buttonClick = (input) => {
+  if (input === 'AC'){
+    resetCalculator();
   } else {
-    operatorCheck(text)
+    inputCheck(input)
   }
 }
 
