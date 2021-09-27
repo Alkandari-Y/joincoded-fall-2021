@@ -52,3 +52,4 @@ Copy an Array
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods
+https://www.freecodecamp.org/news/reduce-f47a7da511a9/
