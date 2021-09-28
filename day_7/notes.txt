@@ -1,0 +1,5 @@
+HTML layout and  settup reviewed
+
+Task link = https://github.com/Alkandari-Y/TASK-intro-HTML
+Task link = https://github.com/Alkandari-Y/TASK-html-starter
+check out the vscode extension auto rename tag

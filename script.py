@@ -1,9 +1,7 @@
 import os
-from c_path import p
 
-
-file_names = ['notes.txt', 'script.js', 'styles.css', 'index.html']
-
+#file_names = ['notes.txt', 'script.js', 'styles.css', 'index.html']
+file_names = ['notes.txt', 'script.js']
 f_name = input('Name of the folder: \n')
 
 os.mkdir (f_name)

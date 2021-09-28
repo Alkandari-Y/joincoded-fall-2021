@@ -1,0 +1,7 @@
+Cool Resourse Links to check out:
+https://coolors.co/
+https://codepen.io/
+https://cssgradient.io/
+https://www.figma.com/
+https://www.w3schools.com/css/default.asp
+https://www.w3schools.com/css/css_boxmodel.asp
