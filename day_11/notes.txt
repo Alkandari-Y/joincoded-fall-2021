@@ -1,0 +1,7 @@
+First day of React js Framework:
+
+    Steps to create a reactapp:
+        1 - Create a directory for the app
+        2 - terminal = yarn create react-app + name
+        3 - yarn start
+        
